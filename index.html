@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>TheDogsPage</title>
+
+    </head>
+
+    <body>
+        <h2>TheDogsPage</h2> 
+
+
+
+        <main>
+            <p>Click here to buy your <a href="#" target="_blank">dog posters:</a>.</p>
+
+            <!-- Dogs images:-->
+
+            <!-- lists 1 -->
+            <div class="lists">
+                <h3>Pros List</h3>
+                <p>Things that dogs <em>win!</em></p>
+                <ul>
+                    <li>Obedience</li>
+                    <li>Loyalty</li>
+                    <li>Protection</li>
+                </ul>
+
+                <a href="#"><img src="Images/image_dog_obedience.png" alt="Dog obedience training."> </a>
+
+
+
+                <!-- lists 2 -->
+                <h3>Cons List</h3>
+                <p>Things that dogs <strong>lose!</strong></p>
+                <ol>
+                    <li>provocations treatment</li>
+                    <li>dogs portion</li>
+                    <li>other Dogs</li>
+                </ol>
+            </div>
+
+            <a href="#"><img src="Images/image_dog_portion.jpg" alt="Dog portion"> </a>
+        
+
+
+            <!-- search bar -->
+            <h3>Search</h3>
+            <p>You can search your photo here:</p>
+            <form action="/submit-dog-photo">
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+
+                <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
+                <label for="angry"><input id="angry" type="checkbox" name="personality"> Angry</label>
+                <label for="funny"><input id="funny" type="checkbox" name="personality"> Funny</label><br>
+
+                <input type="text" placeholder="Dog Photo URL" required><br>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+
+
+
+        <footer>
+            <p><small>No Copyright - <a href="https://www.linkedin.com/in/pedro-bonetti-889b88363/">Pedro Bonetti</a></small></p>
+        </footer>
+    </body>
+</html>
